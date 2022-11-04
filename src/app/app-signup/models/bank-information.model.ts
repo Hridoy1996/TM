@@ -27,7 +27,7 @@ export class UserFinancialInfo {
         if (mfs) {
             this.MobileFinancialServiceInfo = {
                 OperatorName: mfs.Info ? mfs.Info.OperatorName : '',
-                PhoneNumber: mfs.Info ? mfs.Info.PhoneNumber : 11111111
+                PhoneNumber: mfs.Info ? mfs.Info.PhoneNumber : ''
             }
         }
 
